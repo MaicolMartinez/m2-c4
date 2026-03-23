@@ -39,7 +39,8 @@ public class App {
         duck.makeNoise();
         System.out.println("The duck's age after birthday: " + duck.getAge()+" years.");
 
-    
+    CanFly duckCanFly = new Duck("Daisy", 4, "hembra", "blanco");
+    duckCanFly.fly();
     
     
     }

@@ -1,4 +1,4 @@
-public class Eagle extends Animal {
+public class Eagle extends Animal implements CanFly {
     
 
     private String type;
@@ -13,6 +13,7 @@ public class Eagle extends Animal {
         return type;
     }
 
+    @Override
     public void fly() {
         System.out.printf("%s The eagle is flying.%n", getName());
     }
