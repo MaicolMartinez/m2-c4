@@ -30,4 +30,9 @@ public class Eagle extends Animal {
         System.out.printf("%s The eagle is hunting in the sky.%n", getName());
     }
 
+    @Override
+    public void makeNoise() {
+        System.out.printf("%s The eagle is making noise.%n", getName());
+    }
+
 }

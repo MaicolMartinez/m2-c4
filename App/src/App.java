@@ -4,7 +4,7 @@ public class App {
         var eagle = new Eagle("maria", 2, "hembra", "calva");
         var lion = new Lion("Simba", 5, "macho", "amarillo");
         var fish = new Fish("Nemo", 1, "macho", "naranja", true);
-
+        var duck = new Duck("Donald", 3, "macho", "blanco");
 
         System.out.println("Eagle's name: " + eagle.getName());
 
@@ -32,5 +32,18 @@ public class App {
         System.out.println("The fish's age after birthday: " + fish.getAge()+" years.");
         System.out.println("The fish have eggs? " + (fish.canPutEggs() ? "Yes" : "No"));
         System.out.println("The fish is from the sea? " + (fish.IsFormSea() ? "Is the sea" : "is the river"));
+    
+
+        System.out.println("Duck's name: " + duck.getName());
+        duck.hunt();
+        duck.makeNoise();
+        System.out.println("The duck's age after birthday: " + duck.getAge()+" years.");
+
+    
+    
+    
     }
+
+
+
 }

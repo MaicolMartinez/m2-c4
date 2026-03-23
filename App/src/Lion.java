@@ -25,4 +25,9 @@ public class Lion extends Animal {
         System.out.printf("%s The lion is hunting in the savannah.%n", getName());
     }
     
+    @Override
+    public void makeNoise() {
+        System.out.printf("%s The lion is making noise.%n", getName());
+    }
+
 }

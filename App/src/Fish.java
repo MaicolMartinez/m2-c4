@@ -35,5 +35,10 @@ public class Fish extends Animal {
     public void hunt() {
         System.out.printf("%s The fish is hunting in the water.%n", getName());
     }
+
+    @Override
+    public void makeNoise() {
+        System.out.printf("%s The fish is making noise.%n", getName());
+    }
     
 }

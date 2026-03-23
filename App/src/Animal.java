@@ -30,9 +30,9 @@ public abstract class Animal {
    }
 
 
-   public void hunt(){
-    System.out.println("The animal is hunting.");
-   }
+   public abstract void hunt();
+
+   public abstract void makeNoise();
 
    protected void happyBirthday() {
     this.age++;
